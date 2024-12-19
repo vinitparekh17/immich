@@ -39,7 +39,7 @@ dependencies:
   flutter_displaymode: ^0.6.0
   scrollable_positioned_list: ^0.3.8
   path: ^1.8.3
-  path_provider: ^2.1.5
+  path_provider: ^2.1.2
   collection: ^1.18.0
   http_parser: ^4.0.2
   flutter_web_auth: 0.6.0
