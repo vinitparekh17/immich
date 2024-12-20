@@ -12,9 +12,6 @@ workflows:
       #   APP_STORE_APPLE_ID: 1555555551
       flutter: 3.24.5
     scripts:
-      - name: Set up code signing settings on Xcode project
-        script: | 
-          xcode-project use-profiles
       - name: Get Flutter packages
         script: | 
           flutter pub get
