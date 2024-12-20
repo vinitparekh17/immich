@@ -12,9 +12,11 @@ workflows:
     scripts:
       - name: Setting Project dir
         script: | 
+          ls ./
           cd ./mobile
       - name: Get Flutter packages
-        script: | 
+        script: |
+          cd ./mobile
           flutter pub get
       - name: Install pods
         script: | 
